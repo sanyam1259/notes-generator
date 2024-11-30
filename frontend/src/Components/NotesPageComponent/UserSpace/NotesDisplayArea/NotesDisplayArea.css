@@ -1,0 +1,11 @@
+.notes-disp-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	height: 100%;
+	width: 100%;
+	background-color: #ffc7c7;
+	border-top-left-radius: 40px;
+	border-bottom-left-radius: 40px;
+	overflow: auto;
+}

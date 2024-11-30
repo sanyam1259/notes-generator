@@ -1,0 +1,27 @@
+.message-component-wrapper {
+	position: fixed;
+	left: 0px;
+	width: 100%;
+	top: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 10000000000;
+}
+
+.message-component-div {
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: black;
+	font-size: 20px;
+	font-weight: bolder;
+}
+
+.danger {
+	background-color: red;
+}
+
+.success {
+	background-color: chartreuse;
+}
