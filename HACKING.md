@@ -1,6 +1,6 @@
 # Hacking
 
-I have build this project with the idea of "None of us is as smart as all of us"
+I have built this project with the idea of "None of us is as smart as all of us"
 in mind and hence have put comments between the codes at all the necessary
 places. I will really appreciate if you dedicate your time in contributing to
 this project as I think it can help a lots of students and learners all around
@@ -15,7 +15,7 @@ three parts <br>
 
 ## Convertor Function
 
-This contains the C++ code that convert the markdown string to a JSX string <br>
+This contains C++ code that convert the markdown string to a JSX string <br>
 To work on this part of the code go to <code>"/backend/convertorFunction"</code>
 <br> Understand the code written in <code>main.cpp</code>. If you wish to make
 some changes to it make, them and then save the file.<br> Once satisfied with
@@ -58,4 +58,4 @@ The file structure follow a pretty unique pattern.
 Once you have understood the code feel free to make any changes you want. 
 
 ## Issues
-In case of any queries you can contact me by mailing at <code>iib2020015@iiita.ac.in</code> 
+In case of any queries you can contact me by mailing at <code>sanyamagarwal7412@gmail.com</code> 
