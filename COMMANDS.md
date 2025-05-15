@@ -12,8 +12,7 @@ git clone https://github.com/sanyam1259/notes-generator.git
 
 1. **Install necessary dependencies** (if not installed already):
     ```bash
-    sudo apt install python3-pip
-    pip install virtualenv
+    sudo apt install python3-pip python3-venv
     ```
 
 2. **Go to the project directory and set up virtual environment**:
