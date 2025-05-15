@@ -2,57 +2,39 @@
 
 ## Download the software in your local machine
 
-Clone this repository <br> <code>git clone
-https://github.com/sanyam1259/notes-generator.git</code><br><br>
+Clone this repository using following command:
+
+```bash
+git clone https://github.com/sanyam1259/notes-generator.git
+```
 
 ## Start Backend Server
 
-1. **Install pip3** (if not installed already):
+1. **Install necessary dependencies** (if not installed already):
     ```bash
     sudo apt install python3-pip
-    ```
-
-2. **Install virtualenv** (if not installed already):
-    ```bash
     pip install virtualenv
     ```
 
-3. **Go to the project directory**:
+2. **Go to the project directory and set up virtual environment**:
     ```bash
-    cd notes-generator
-    ```
-
-4. **Go to the backend directory**:
-    ```bash
-    cd backend/
-    ```
-
-5. **Create a virtual environment**:
-    ```bash
+    cd notes-generator/backend/
     python3 -m venv env
+    source env/bin/activate   # On Windows, use '.\env\bin\Activate.ps1'
     ```
 
-6. **Activate the virtual environment**:
-    ```bash
-    source env/bin/activate
-    ```
-
-7. **Install the necessary packages**:
+3. **Install the required packages**:
     ```bash
     pip3 install -r requirements.txt
     ```
 
-8. **Prepare your database for migration**:
+4. **Prepare the database and run migrations**:
     ```bash
     python3 manage.py makemigrations
-    ```
-
-9. **Run the migration**:
-    ```bash
     python3 manage.py migrate --run-syncdb
     ```
 
-10. **Start your backend development server**:
+5. **Start your backend development server**:
     ```bash
     python3 manage.py runserver
     ```
@@ -61,40 +43,39 @@ https://github.com/sanyam1259/notes-generator.git</code><br><br>
 
 ## Start Frontend Server
 
-1. **Create a new terminal instance** at the `notes-generator` directory.
-
-2. **Go to the frontend directory**:
+1. **In a new terminal instance, go to frontend directory and install necessary packages**:
     ```bash
-    cd frontend
-    ```
-
-3. **Install all necessary packages**:
-    ```bash
+    cd notes-generator/frontend
     npm install
     ```
 
-4. **Start your frontend development server**:
+2. **Start your frontend development server**:
     ```bash
     npm start
     ```
 
-5. **Once both your frontend and backend development servers have successfully started,** open your browser and go to:
+3. **Open your browser and go to**:
     ```
     http://localhost:3000/
     ```
 
     You should now see the homepage of Notesy.
 
-## Creating first note
+### Creating your first note
 
-First step is to create an account for yourself. <br> Click on the User icon on
-top right of the page and then click sign up on the login page. Or just search
-for <code>http://localhost:3000/register </code> in your browser.<br> Provide
-relevant information to create the User. <br> Once the user has been registered
-successfully you will be redirected to homepage. <br> Click on Notes on the top
-right of home page and select Create Notes.<br><br>
+1. **Create an Account**:  
+   Click the **User icon** at the top right and select **Sign Up**. Or visit:  
+   `http://localhost:3000/register` to register.
 
-Create your note and the click on Save and Create option on top task bar.
-<br><br>
+2. **Login and Go to Homepage**:  
+   After registration, you'll be redirected to the homepage.
 
-<b>Hurray!! you have created your first Note.</b>
+3. **Create a Note**:  
+   Click **Notes** at the top right, then select **Create Note**.
+
+4. **Save and Create**:  
+   After creating your note, click **Save and Create** in the top taskbar.
+
+---
+
+**Hurray!! You have created your first note!**
