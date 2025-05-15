@@ -9,6 +9,7 @@ normal markdown notes into a flowchart that makes revision of topic more
 efficient and fun.
 
 ![Description of image](images/sample.png)
+*Sample flowchart generated from markdown*
 
 
 ## 💡 Motivation
