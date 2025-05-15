@@ -20,7 +20,7 @@ git clone https://github.com/sanyam1259/notes-generator.git
     ```bash
     cd notes-generator/backend/
     python3 -m venv env
-    source env/bin/activate
+    source env/bin/activate   # On Windows, use '.\env\bin\Activate.ps1'
     ```
 
 3. **Install the required packages**:
@@ -78,4 +78,4 @@ git clone https://github.com/sanyam1259/notes-generator.git
 
 ---
 
-**Congratulations! You've created your first note!** 🎉
+**Hurray!! You have created your first note!**
