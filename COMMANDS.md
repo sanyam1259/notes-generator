@@ -5,29 +5,85 @@
 Clone this repository <br> <code>git clone
 https://github.com/sanyam1259/notes-generator.git</code><br><br>
 
-## Start backend server
+## Start Backend Server
 
-Install pip3 if not installed already<br> <code>sudo apt install
-python3-pip</code><br><br> Install virtualenv if not installed already<br>
-<code>pip install virtualenv</code><br><br> Go to the project<br> <code>cd
-notes-generator</code><br><br> Go to backend directory<br> <code>cd
-backend/</code><br><br> Create virtual environment<br> <code>python3 -m venv
-env</code><br><br> Activate virtual environment<br> <code>source
-env/bin/activate</code><br><br> Install related packages<br> <code>pip3 install
--r requirments.txt</code><br><br> Ready your database for migration<br>
-<code>python3 manage.py makemigrations</code><br><br> migrate<br> <code>python3
-manage.py migrate --run-syncdb</code><br><br> Start your backend development
-server<br> <code>python3 manage.py runserver</code><br><br> Make sure your
-development server is running<br><br>
+1. **Install pip3** (if not installed already):
+    ```bash
+    sudo apt install python3-pip
+    ```
 
-## Start frontend server
+2. **Install virtualenv** (if not installed already):
+    ```bash
+    pip install virtualenv
+    ```
 
-Create one for instance of terminal at notes-generator<br><br> Go to frontend
-directory<br> <code>cd frontend</code><br><br> Install all the necessary
-packages<br> <code>npm install</code><br><br> Start your development server<br>
-<code>npm start</code><br> <br> Once both your frontend and backend development
-server has successfully started search <code> http://localhost:3000/ </code> in
-your browser. <br> You will see home page of Notesy.
+3. **Go to the project directory**:
+    ```bash
+    cd notes-generator
+    ```
+
+4. **Go to the backend directory**:
+    ```bash
+    cd backend/
+    ```
+
+5. **Create a virtual environment**:
+    ```bash
+    python3 -m venv env
+    ```
+
+6. **Activate the virtual environment**:
+    ```bash
+    source env/bin/activate
+    ```
+
+7. **Install the necessary packages**:
+    ```bash
+    pip3 install -r requirements.txt
+    ```
+
+8. **Prepare your database for migration**:
+    ```bash
+    python3 manage.py makemigrations
+    ```
+
+9. **Run the migration**:
+    ```bash
+    python3 manage.py migrate --run-syncdb
+    ```
+
+10. **Start your backend development server**:
+    ```bash
+    python3 manage.py runserver
+    ```
+
+    Make sure your development server is running.
+
+## Start Frontend Server
+
+1. **Create a new terminal instance** at the `notes-generator` directory.
+
+2. **Go to the frontend directory**:
+    ```bash
+    cd frontend
+    ```
+
+3. **Install all necessary packages**:
+    ```bash
+    npm install
+    ```
+
+4. **Start your frontend development server**:
+    ```bash
+    npm start
+    ```
+
+5. **Once both your frontend and backend development servers have successfully started,** open your browser and go to:
+    ```
+    http://localhost:3000/
+    ```
+
+    You should now see the homepage of Notesy.
 
 ## Creating first note
 
