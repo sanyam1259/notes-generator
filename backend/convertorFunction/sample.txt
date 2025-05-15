@@ -1,0 +1,41 @@
+# Sanyam  
+> About  
+Undergraduate from IIIT Allahabad  
+
+## Experience  
+### Fi.money - epiFi Technologies  
+> Position  
+Software Engineer Intern  
+> Notable Work  
+Automated PR deployment lifecycle reducing deployment time by 40%  
+> Other Works  
+Optimized backend services and payment gateway integration  
+
+### WurkZone  
+> Position  
+Product Engineering Intern  
+> Notable Work  
+Implemented multiple user authentication methods increasing registrations by 25%  
+> Other Works  
+Integrated Razorpay payment gateway to reduce failures by 15%  
+
+## Education  
+> Undergraduate  
+B.Tech in Information Technology at IIIT Allahabad
+> Class 12  
+94.4%  
+> Class 10  
+96.6%  
+
+## Projects  
+> Flowcharts Generator  
+A platform converting markdown notes into interactive flowcharts using React, Django, Pybind11, and C++  
+
+> Blogging Site  
+A blog platform built with Cloudflare Workers, React.js, TypeScript, and PostgreSQL supporting user publishing and editing  
+
+## Technical Skills  
+> Languages  
+Golang, Python, C, C++, Java, JavaScript, TypeScript, Bash Scripting  
+> Frameworks  
+Django, React.js, Redux, Prisma ORM, Node.js, TensorFlow, PyTorch, Django Rest Framework
