@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/string_to_JSX.dir/main.cpp.o"
-  "string_to_JSX.cpython-38-x86_64-linux-gnu.so"
+  "CMakeFiles/string_to_JSX.dir/main.cpp.o.d"
+  "string_to_JSX.cpython-310-x86_64-linux-gnu.so"
   "string_to_JSX.pdb"
 )
 
