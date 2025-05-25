@@ -29,8 +29,8 @@ the changes you have made follow these steps.
     <li> Go to your module_build directory <code>cd module_build </code></li>
     <li> Run cmake on your CMakeLists <code>cmake .. </code></li>
     <li> Create the module <code>make </code></li>
-    <li> You will see a file like <code>string_to_JSX.cpython-38-x86_64-linux-gnu.so</code> in the directory module_build. This is our python module </li>
-    <li> Remove the previous module stored in <code>/backend/base</code> using <code>rm ../base/string_to_JSX.cpython-38-x86_64-linux-gnu.so</code></li>
+    <li> You will see a file like <code>string_to_JSX.cpython-312-x86_64-linux-gnu.so</code> in the directory module_build. This is our python module </li>
+    <li> Remove the previous module stored in <code>/backend/base</code> using <code>rm ../base/string_to_JSX.cpython-312-x86_64-linux-gnu.so</code></li>
     <li> Copy the new module to base <code> cp string_to_JSX.cpython-38-x86_64-linux-gnu.so ../base/ </code></li>
 </ol>
 Restart the server and see your changes taking place.

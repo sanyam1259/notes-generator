@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -Dstring_to_JSX_EXPORTS
 
-CXX_INCLUDES = -isystem /usr/include/python3.10 -isystem /home/ubuntu/Downloads/notes-generator/backend/convertorFunction/pybind11/include
+CXX_INCLUDES = -isystem /usr/local/include/python3.12 -isystem /home/ubuntu/Downloads/notes-generator/backend/convertorFunction/pybind11/include
 
 CXX_FLAGS = -fPIC -fvisibility=hidden -flto -fno-fat-lto-objects
 

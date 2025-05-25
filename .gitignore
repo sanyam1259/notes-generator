@@ -160,6 +160,10 @@ logs
 node_modules
 bower_components
 
+# pybind11 repo
+backend/convertorFunction/pybind11
+backend/convertorFunction/module_build/pybind11
+
 *.sublime*
 
 psd
